@@ -1,0 +1,33 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Hack it!'
+theme = "mainroad"
+
+[Author] # Used in authorbox
+  name = "Xinliang Lyu"
+  # bio = ""
+  # avatar = "img/avatar.png"
+
+[Params]
+  description = "Amazing stuffs" # Site description. Used in meta description
+  copyright = "Xinliang Lyu" # Footer copyright holder, otherwise will use site title
+  post_meta = ["author", "date", "categories", "translations"]
+
+[Params.logo]
+  # image = "img/placeholder.png" # Logo image. Path relative to "static"
+  image = "img/the-matrix.jpg" # Logo image. Path relative to "static"
+  subtitle = "Amazing stuffs" # Logo subtitle
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+[[menu.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 20
+[[menu.main]]
+  name = 'About'
+  pageRef = '/about'
+  weight = 30
