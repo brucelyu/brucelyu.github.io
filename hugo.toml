@@ -18,6 +18,22 @@ theme = "mainroad"
   image = "img/the-matrix.jpg" # Logo image. Path relative to "static"
   subtitle = "Amazing stuffs" # Logo subtitle
 
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = false
+  widgets = ["social"]
+
+[Params.widgets.social]
+  cached = true # activate cache if true
+  # Enable parts of social widget
+  github = "brucelyu"
+  email = "lyu@xllyu.org"
+
+[[Params.widgets.social.custom]]
+  title = "My main website"
+  url = "https://xllyu.org"
+
 [menu]
 [[menu.main]]
   name = 'Home'
