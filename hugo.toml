@@ -2,7 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Hack it!'
 theme = "mainroad"
-disqusShortname = "xinlianglyu" # Enable Disqus comments by entering your Disqus shortname
+disqusShortname = "bruce-github" # Enable Disqus comments by entering your Disqus shortname
 
 [Author] # Used in authorbox
   name = "Xinliang Lyu"
