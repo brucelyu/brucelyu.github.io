@@ -2,6 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Hack it!'
 theme = "mainroad"
+disqusShortname = "xinlianglyu" # Enable Disqus comments by entering your Disqus shortname
 
 [Author] # Used in authorbox
   name = "Xinliang Lyu"
@@ -11,7 +12,8 @@ theme = "mainroad"
 [Params]
   description = "Amazing stuffs" # Site description. Used in meta description
   copyright = "Xinliang Lyu" # Footer copyright holder, otherwise will use site title
-  post_meta = ["author", "date", "categories", "translations"]
+  post_meta = ["author", "date", "wordcount"]
+  dateformat = "2006-01-02" # Change the format of dates
 
 [Params.logo]
   # image = "img/placeholder.png" # Logo image. Path relative to "static"
