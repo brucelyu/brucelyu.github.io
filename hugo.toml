@@ -136,6 +136,9 @@ paginate = 12
       appID = ""
       searchKey = ""
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 # Home page config
   [params.home]
     # LoveIt NEW | 0.2.0 amount of RSS pages
