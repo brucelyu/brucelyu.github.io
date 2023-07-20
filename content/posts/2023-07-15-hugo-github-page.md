@@ -1,6 +1,7 @@
 ---
 title: "Build a static website using Hugo and deploy it on GitHub"
 date: "2023-07-15"
+lastmod: "2023-07-20"
 comments: true  # Enable Disqus comments for specific page
 toc: true # Enable Table of Contents for specific page
 ---
@@ -112,7 +113,65 @@ Usually, the default is the same name as your website repository, `<username>.gi
 Use this url, you can see our blank website.
 
 ## V. Modify the website and add posts and pages.
+Until now, the webpage is blank.
+Next, we show how to add pages and posts to the website and how to add a menus so people can navigate.
 
 ### V.1 Add about page
+You probabaly need an about page to tell people who you are and what the webpage is about.
+We show how to add an about page below, which serves as a template for adding further new pages for your website, like CV page or showcase page.
+
+Let's start. Do
+```shell
+hugo new about/index.md
+```
+and Hugo will create a folder called `about` and a file `index.md` inside this folder.
+The folder name is changeable, but the file name isn't if you want to create a page.
+You will see the difference when we finish disucssing create a post below.
+
+Then, you can open the `index.md` file with any text editor you like and write what you want on the about page.
+The file is a markdown file, which is easy to edit.
+If it is the first time you write with markdown file, there are lots of tutorial online.
+[Here](https://joplinapp.org/markdown/) is an good tutorial.
+
+At last, remember to change the line on the top of the file `draft: true` to `draft: false`.
+
 ### V.2 Add a post
+Adding a post is also easy with Hugo. Do
+```shell
+hugo new posts/first_post.md
+```
+which creates a folder `posts` and a file `first_post.md` inside.
+Here, both the name of the folder and the name of the file are changeable.
+You can choose whatever you like.
+
+Edit the file and write whatever you like.
+Also, don't forget to change the draft to false.
+
 ### V.3 Add menus and other things
+Finally, we add menus to the top of our webpage so people can navigate to about page or list of posts.
+In the fold of your website `HugoPage`, you can find a file `hugo.toml`.
+Open this file with an editor and add the following text in
+```
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+[[menu.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 20
+[[menu.main]]
+  name = 'About'
+  pageRef = '/about'
+  weight = 30
+```
+It is not hard to guess what this file does.
+Save the file and close.
+Now, run `hugo server` in your terminal and browse you website in your web browser.
+Can you see the menus and your newly added page and post?
+
+To make the change public, just add and commit all the change using git and push to your GitHub.
+After a minute or so, you can see the change on your public website.
+
+Have fun fiddling with your new webpage!
