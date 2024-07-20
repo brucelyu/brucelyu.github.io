@@ -182,7 +182,7 @@ paginate = 12
     # content hovering on the icon
     title = "Main website"
 
-# LoveIt CHANGED | 0.2.0 Comment config
+	# LoveIt CHANGED | 0.2.0 Comment config
     [params.page.comment]
       enable = true
       # Disqus comment config
@@ -191,6 +191,20 @@ paginate = 12
         enable = true
         # Disqus shortname to use Disqus in posts
         shortname = "bruce-github"
+
+	# LoveIt CHANGED | 0.2.0 KaTeX mathematical formulas
+    [params.page.math]
+      enable = true
+      # LoveIt CHANGED | 0.2.11 default inline delimiter is $ ... $ and \( ... \)
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      # LoveIt CHANGED | 0.2.11 default block delimiter is $$ ... $$, \[ ... \], \begin{equation} ... \end{equation} and some other functions
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      # KaTeX extension copy_tex
+      copyTex = false
+      # KaTeX extension mhchem
+      mhchem = false
 
 # Markup related configuration in Hugo
 [markup]
