@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Build a static website using Hugo and deploy it on GitHub - Hack it!</title><meta name="Description" content="Amazing stuffs"><meta property="og:url" content="//localhost:1313/posts/2023-07-15-hugo-github-page/">
+  <meta property="og:site_name" content="Hack it!">
+  <meta property="og:title" content="Build a static website using Hugo and deploy it on GitHub">
+  <meta property="og:description" content="I learned how to build a simple personal webpage using Hugo and deploy it on GitHub today. I must say it is not the simplest way to build your own personal website. In order to do this, you should be comforable with
+basic coding process and command line: for Mac it is terminal application, for windows, it is PowerShell Why? The whole process isn’t through graphic interface through clicking and dragging.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-07-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-07-20T00:00:00+00:00">
+    <meta property="og:image" content="//localhost:1313/the-matrix.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="//localhost:1313/the-matrix.jpg">
+  <meta name="twitter:title" content="Build a static website using Hugo and deploy it on GitHub">
+  <meta name="twitter:description" content="I learned how to build a simple personal webpage using Hugo and deploy it on GitHub today. I must say it is not the simplest way to build your own personal website. In order to do this, you should be comforable with
+basic coding process and command line: for Mac it is terminal application, for windows, it is PowerShell Why? The whole process isn’t through graphic interface through clicking and dragging.">
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="//localhost:1313/posts/2023-07-15-hugo-github-page/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Build a static website using Hugo and deploy it on GitHub",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/\/localhost:1313\/posts\/2023-07-15-hugo-github-page\/"
+        },"genre": "posts","wordcount":  1136 ,
+        "url": "\/\/localhost:1313\/posts\/2023-07-15-hugo-github-page\/","datePublished": "2023-07-15T00:00:00+00:00","dateModified": "2023-07-20T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Xinliang Lyu"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Hack it!">Hack it</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Hack it!">Hack it</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Build a static website using Hugo and deploy it on GitHub</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Xinliang Lyu</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-15">2023-07-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1136 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#i-big-picture-of-the-process">I. Big picture of the process</a></li>
+    <li><a href="#ii-install-hugo">II. Install Hugo</a></li>
+    <li><a href="#iii-create-your-webpage">III. Create your webpage</a></li>
+    <li><a href="#iv-host-on-github-pages">IV. Host on GitHub Pages</a></li>
+    <li><a href="#v-modify-the-website-and-add-posts-and-pages">V. Modify the website and add posts and pages.</a>
+      <ul>
+        <li><a href="#v1-add-about-page">V.1 Add about page</a></li>
+        <li><a href="#v2-add-a-post">V.2 Add a post</a></li>
+        <li><a href="#v3-add-menus-and-other-things">V.3 Add menus and other things</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>I learned how to build a simple personal webpage using Hugo and deploy it on GitHub today.
+I must say it is not the simplest way to build your own personal website.
+In order to do this, you should be comforable with</p>
+<ul>
+<li>basic coding process and</li>
+<li>command line: for Mac it is terminal application, for windows, it is PowerShell</li>
+</ul>
+<p>Why? The whole process isn&rsquo;t through graphic interface through clicking and dragging.
+Instead, we rely heavily on create and editing <em>files</em> to modify and add contents to our webpage.</p>
+<h2 id="i-big-picture-of-the-process">I. Big picture of the process</h2>
+<p>You first create your website locally on your computer and test it.
+Then, your upload it to you GitHub repository, and set up the repository to build you website automatically.
+Whenever you want to add new posts or modify your website, you do this locally on your computer, test it, and push to your GitHub repository.
+GitHub will rebuild everything and people can access the latest website.</p>
+<h2 id="ii-install-hugo">II. Install Hugo</h2>
+<p>We use Hugo to build and modify our webpage.
+You can follow the <a href="https://gohugo.io/installation/" target="_blank" rel="noopener noreffer ">official instruction</a>.
+If you use Mac as I do, the insallation is very simple and quick.</p>
+<p>You first install <a href="https://brew.sh/" target="_blank" rel="noopener noreffer ">HomeBrew</a> by running the following command in your terminal:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">/bin/bash -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&#34;</span>
+</span></span></code></pre></div><p>With HomeBrew, install Hugo is super easy by running the command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">brew install hugo
+</span></span></code></pre></div><h2 id="iii-create-your-webpage">III. Create your webpage</h2>
+<p>You follow the <a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener noreffer ">official quick start</a> to create your webpage.
+Here is a summary.</p>
+<p>First, in terminal, use <code>cd</code> command to change to a directory where you want to save your website.
+Then, you think of a name for the folder of your website; as an example, I use <code>HugoPage</code>.
+You run the command</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo new site HugoPage
+</span></span></code></pre></div><p>Hugo creates a folder with the name <code>HugoPage</code> for you.
+Inside the folder, you have a blank website with some basic files.
+Change to this folder in terminal and initialize an empty Git repository</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> HugoPage
+</span></span><span class="line"><span class="cl">git init
+</span></span></code></pre></div><p>Next, you need to choose a theme for your webpage <a href="https://themes.gohugo.io/" target="_blank" rel="noopener noreffer ">here</a>.
+It can be a temporary choice.
+For exmaple, I choose <a href="https://themes.gohugo.io/themes/mainroad/" target="_blank" rel="noopener noreffer ">Mainroad</a>.
+You can click <code>Demo</code> there to see an sample page.
+Then, if you want it, you click <code>Download</code>, bringing your to its GitHub repository.
+Read the Installation section of the GitHub repository of the theme.
+In this case, we run the command</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git submodule add https://github.com/vimux/mainroad.git themes/mainroad
+</span></span></code></pre></div><p>to download this theme repository locally to <code>HugoPage/themes/mainroad</code> folder.
+Then, continue following the Installation instruction of the theme, you edit the file <code>HugoPage/hugo.toml</code> and add a line</p>
+<pre tabindex="0"><code>theme = &#34;mainroad&#34;
+</code></pre><p>after the last the line of the file.</p>
+<p>Finally, you test the website to see how it looks like by running the command</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo server
+</span></span></code></pre></div><p>This command keeps your command line occupied and you will see</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">....
+</span></span><span class="line"><span class="cl">....
+</span></span><span class="line"><span class="cl">Web Server is available at //localhost:1313/ <span class="o">(</span><span class="nb">bind</span> address 127.0.0.1<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Press Ctrl+C to stop
+</span></span></code></pre></div><p>Copy and paste <code>localhost:1313</code> to your web brower like Chrome and you will see a blank website.</p>
+<p>By modify and add files in <code>HugoPage</code>, you can change everything of the website and add posts or pages.
+Before talking about modifying the webpage and adding contents, let&rsquo;s first show how to deploy this blanck website on GitHub.</p>
+<p>Press Ctrl+C to stop the <code>hugo server</code> command.</p>
+<h2 id="iv-host-on-github-pages">IV. Host on GitHub Pages</h2>
+<p>Now, we are ready to upload this folder <code>HugoPage</code> to GitHub and tell GitHub to build the website.
+It is super easy and fast!
+We follow <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" target="_blank" rel="noopener noreffer ">official tutorial</a>.</p>
+<p>First, you create a file <code>HugoPage/.github/workflows/hugo.yaml</code>, compy and paste the YAML in Step 6 of the above official tutorial into this file.
+No change is needed.
+Use</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Add workflow&#34;</span>
+</span></span></code></pre></div><p>to commit everything.</p>
+<p>Then, login your GitHub and create a blank repository with name <code>&lt;username&gt;.github.io</code>.
+Follow the instruction <a href="https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git" target="_blank" rel="noopener noreffer ">here</a> to push our webpage <code>HugoPage</code> to this GitHub repository.</p>
+<p>Finally, follow Step 2 and 3 in Hugo&rsquo;s <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" target="_blank" rel="noopener noreffer ">official tutorial</a> to tell the GitHub to use the workflow to build and deploy the website.
+You can find the url of your website in Step 8 to 10 of the official guide.
+Usually, the default is the same name as your website repository, <code>&lt;username&gt;.github.io</code>.
+Use this url, you can see our blank website.</p>
+<h2 id="v-modify-the-website-and-add-posts-and-pages">V. Modify the website and add posts and pages.</h2>
+<p>Until now, the webpage is blank.
+Next, we show how to add pages and posts to the website and how to add a menus so people can navigate.</p>
+<h3 id="v1-add-about-page">V.1 Add about page</h3>
+<p>You probabaly need an about page to tell people who you are and what the webpage is about.
+We show how to add an about page below, which serves as a template for adding further new pages for your website, like CV page or showcase page.</p>
+<p>Let&rsquo;s start. Do</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo new about/index.md
+</span></span></code></pre></div><p>and Hugo will create a folder called <code>about</code> and a file <code>index.md</code> inside this folder.
+The folder name is changeable, but the file name isn&rsquo;t if you want to create a page.
+You will see the difference when we finish disucssing create a post below.</p>
+<p>Then, you can open the <code>index.md</code> file with any text editor you like and write what you want on the about page.
+The file is a markdown file, which is easy to edit.
+If it is the first time you write with markdown file, there are lots of tutorial online.
+<a href="https://joplinapp.org/markdown/" target="_blank" rel="noopener noreffer ">Here</a> is an good tutorial.</p>
+<p>At last, remember to change the line on the top of the file <code>draft: true</code> to <code>draft: false</code>.</p>
+<h3 id="v2-add-a-post">V.2 Add a post</h3>
+<p>Adding a post is also easy with Hugo. Do</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo new posts/first_post.md
+</span></span></code></pre></div><p>which creates a folder <code>posts</code> and a file <code>first_post.md</code> inside.
+Here, both the name of the folder and the name of the file are changeable.
+You can choose whatever you like.</p>
+<p>Edit the file and write whatever you like.
+Also, don&rsquo;t forget to change the draft to false.</p>
+<h3 id="v3-add-menus-and-other-things">V.3 Add menus and other things</h3>
+<p>Finally, we add menus to the top of our webpage so people can navigate to about page or list of posts.
+In the fold of your website <code>HugoPage</code>, you can find a file <code>hugo.toml</code>.
+Open this file with an editor and add the following text in</p>
+<pre tabindex="0"><code>[menu]
+[[menu.main]]
+  name = &#39;Home&#39;
+  pageRef = &#39;/&#39;
+  weight = 10
+[[menu.main]]
+  name = &#39;Posts&#39;
+  pageRef = &#39;/posts&#39;
+  weight = 20
+[[menu.main]]
+  name = &#39;About&#39;
+  pageRef = &#39;/about&#39;
+  weight = 30
+</code></pre><p>It is not hard to guess what this file does.
+Save the file and close.
+Now, run <code>hugo server</code> in your terminal and browse you website in your web browser.
+Can you see the menus and your newly added page and post?</p>
+<p>To make the change public, just add and commit all the change using git and push to your GitHub.
+After a minute or so, you can see the change on your public website.</p>
+<p>Have fun fiddling with your new webpage!</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-07-20</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="//localhost:1313/posts/2023-07-15-hugo-github-page/" data-title="Build a static website using Hugo and deploy it on GitHub"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="//localhost:1313/posts/2023-07-15-hugo-github-page/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="//localhost:1313/posts/2023-07-15-hugo-github-page/" data-title="Build a static website using Hugo and deploy it on GitHub"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="//localhost:1313/posts/2023-07-15-hugo-github-page/" data-title="Build a static website using Hugo and deploy it on GitHub"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="//localhost:1313/posts/2023-07-15-hugo-github-page/" data-title="Build a static website using Hugo and deploy it on GitHub"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.129.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Xinliang Lyu</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

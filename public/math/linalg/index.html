@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Exercises in linear algebra - Hack it!</title><meta name="Description" content="Amazing stuffs"><meta property="og:url" content="//localhost:1313/math/linalg/">
+  <meta property="og:site_name" content="Hack it!">
+  <meta property="og:title" content="Exercises in linear algebra">
+  <meta property="og:description" content="Page created on 19 July 2024
+Last modified on 20 July 2024
+I. Eigenvalue problems As a review, the eigenvalue problem of a given matrix $\mathbf{M}$ is I.1 Eigenvalues of a symmetric matirx We haven’t talked about how to solve the eigenvalue problem from scratch. So, here, we write down a matrix and I will tell you the eigenvectors. You try calculting the corresponding eignevalues. Here is the matrix and I tell you its two eigenvectors are Please calculate the corresponding eigenvalues.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="math">
+    <meta property="article:published_time" content="2024-07-19T10:50:10+09:00">
+    <meta property="article:modified_time" content="2024-07-20T00:00:00+00:00">
+    <meta property="og:image" content="//localhost:1313/the-matrix.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="//localhost:1313/the-matrix.jpg">
+  <meta name="twitter:title" content="Exercises in linear algebra">
+  <meta name="twitter:description" content="Page created on 19 July 2024
+Last modified on 20 July 2024
+I. Eigenvalue problems As a review, the eigenvalue problem of a given matrix $\mathbf{M}$ is I.1 Eigenvalues of a symmetric matirx We haven’t talked about how to solve the eigenvalue problem from scratch. So, here, we write down a matrix and I will tell you the eigenvectors. You try calculting the corresponding eignevalues. Here is the matrix and I tell you its two eigenvectors are Please calculate the corresponding eigenvalues.">
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="//localhost:1313/math/linalg/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Exercises in linear algebra",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/\/localhost:1313\/math\/linalg\/"
+        },"genre": "math","wordcount":  221 ,
+        "url": "\/\/localhost:1313\/math\/linalg\/","datePublished": "2024-07-19T10:50:10+09:00","dateModified": "2024-07-20T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Xinliang Lyu"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Hack it!">Hack it</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Hack it!">Hack it</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">Exercises in linear algebra</h1><div class="content" id="content"><p>Page created on <em>19 July 2024</em></p>
+<p>Last modified on <em>20 July 2024</em></p>
+<h2 id="i-eigenvalue-problems">I. Eigenvalue problems</h2>
+<p>As a review, the eigenvalue problem of a given matrix $\mathbf{M}$ is
+<data id="id-1" data-raw></data></p>
+<h3 id="i1-eigenvalues-of-a-symmetric-matirx">I.1 Eigenvalues of a symmetric matirx</h3>
+<p>We haven&rsquo;t talked about how to solve the eigenvalue problem from scratch.
+So, here, we write down a matrix and I will tell you the eigenvectors.
+You try calculting the corresponding eignevalues.
+Here is the matrix
+<data id="id-2" data-raw></data>
+and I tell you its two eigenvectors are
+<data id="id-3" data-raw></data>
+Please calculate the corresponding eigenvalues.</p>
+<h3 id="i2-eigendecomposition-of-a-matrix">I.2 Eigendecomposition of a matrix</h3>
+<p>Try writing the two eigenvalues equations of the above exercise as an eigendecomposition of the matrix $\mathbf{S} = \mathbf{Q} \mathbf{\Lambda} \mathbf{Q}^{-1}$.
+Wrtie down the $\mathbf{Q}$ and $\mathbf{\Lambda}$ matrices and plug them into the right-hand side to check whether you reproduce the matrix $\mathbf{S}$.</p>
+<ul>
+<li>Hint 1. The two columns of $\mathbf{Q}$ are two eigenvectors and the eigenvalues are in the diagonal matrix $\mathbf{\Lambda}$.</li>
+<li>Hint 2. Since the matrix $\mathbf{S}$ is symmetric, the matrix $\mathbf{Q}$ <em>can be made as orthgonal matrix</em> if you rescale the eigenvecotors to ensure that they have unit length (In the above expression I gave you, they both have length $\sqrt{2}$).
+For an orthogonal matrix, the inverse is just its transpose $\mathbf{Q}^{-1} = \mathbf{Q}^{\top}$.</li>
+</ul>
+<h2 id="ii-inner-product">II. Inner product</h2>
+<blockquote>
+<p>Hey, I will add some exercises when I have ideas.
+Come back and check later!</p>
+</blockquote>
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.129.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Xinliang Lyu</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"data":{"id-1":"\n\\[\n\\mathbf{M} \\vec{v} = \\lambda \\vec{v}.\n\\]\nThe vector $\\vec{v}$ is an eigenvector and the scalar $\\lambda$ is the corresponding eigenvalue.\n","id-2":"\n\\[\n\\mathbf{S} =\n\\begin{pmatrix}\n1 \u0026 3 \\\\\n3 \u0026 1 \n\\end{pmatrix},\n\\]\n","id-3":"\n\\[\n\\vec{v}_1 =\n\\begin{pmatrix}\n1 \\\\\n1 \n\\end{pmatrix},\n\\vec{v}_2 =\n\\begin{pmatrix}\n1 \\\\\n-1 \n\\end{pmatrix}.\n\\]\n"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

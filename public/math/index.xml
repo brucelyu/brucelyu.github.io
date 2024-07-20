@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maths on Hack it!</title>
+    <link>//localhost:1313/math/</link>
+    <description>Recent content in Maths on Hack it!</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
+    <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster>
+    <lastBuildDate>Fri, 19 Jul 2024 10:50:10 +0900</lastBuildDate>
+    <atom:link href="//localhost:1313/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exercises in linear algebra</title>
+      <link>//localhost:1313/math/linalg/</link>
+      <pubDate>Fri, 19 Jul 2024 10:50:10 +0900</pubDate><author>lyu@xllyu.org (Xinliang Lyu)</author>
+      <guid>//localhost:1313/math/linalg/</guid>
+      <description>Are you ready to do some simple exercises in linear algebra?</description>
+    </item>
+  </channel>
+</rss>
