@@ -8,14 +8,14 @@
     <language>en</language>
     <managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
     <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster>
-    <lastBuildDate>Fri, 19 Jul 2024 10:50:10 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exercises in linear algebra</title>
       <link>//localhost:1313/math/linalg/</link>
       <pubDate>Fri, 19 Jul 2024 10:50:10 +0900</pubDate><author>lyu@xllyu.org (Xinliang Lyu)</author>
       <guid>//localhost:1313/math/linalg/</guid>
-      <description>Are you ready to do some simple exercises in linear algebra?</description>
+      <description>Page created on 19 July 2024&#xA;Last modified on 20 July 2024&#xA;I. Eigenvalue problems As a review, the eigenvalue problem of a given matrix $\mathbf{M}$ is I.1 Eigenvalues of a symmetric matirx We haven&amp;rsquo;t talked about how to solve the eigenvalue problem from scratch. So, here, we write down a matrix and I will tell you the eigenvectors. You try calculting the corresponding eignevalues. Here is the matrix and I tell you its two eigenvectors are Please calculate the corresponding eigenvalues.</description>
     </item>
   </channel>
 </rss>
