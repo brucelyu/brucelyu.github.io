@@ -15,7 +15,7 @@
       <link>//localhost:1313/math/linalg/</link>
       <pubDate>Fri, 19 Jul 2024 10:50:10 +0900</pubDate><author>lyu@xllyu.org (Xinliang Lyu)</author>
       <guid>//localhost:1313/math/linalg/</guid>
-      <description>Page created on 19 July 2024&#xA;Last modified on 20 July 2024&#xA;I. Eigenvalue problems As a review, the eigenvalue problem of a given matrix $\mathbf{M}$ is I.1 Eigenvalues of a symmetric matirx We haven&amp;rsquo;t talked about how to solve the eigenvalue problem from scratch. So, here, we write down a matrix and I will tell you the eigenvectors. You try calculting the corresponding eignevalues. Here is the matrix and I tell you its two eigenvectors are Please calculate the corresponding eigenvalues.</description>
+      <description>&lt;p&gt;Page created on &lt;em&gt;19 July 2024&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Last modified on &lt;em&gt;20 July 2024&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;i-eigenvalue-problems&#34;&gt;I. Eigenvalue problems&lt;/h2&gt;&#xA;&lt;p&gt;As a review, the eigenvalue problem of a given matrix $\mathbf{M}$ is&#xA;&lt;data id=&#34;id-1&#34; data-raw&gt;&lt;/data&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;i1-eigenvalues-of-a-symmetric-matirx&#34;&gt;I.1 Eigenvalues of a symmetric matirx&lt;/h3&gt;&#xA;&lt;p&gt;We haven&amp;rsquo;t talked about how to solve the eigenvalue problem from scratch.&#xA;So, here, we write down a matrix and I will tell you the eigenvectors.&#xA;You try calculting the corresponding eignevalues.&#xA;Here is the matrix&#xA;&lt;data id=&#34;id-2&#34; data-raw&gt;&lt;/data&gt;&#xA;and I tell you its two eigenvectors are&#xA;&lt;data id=&#34;id-3&#34; data-raw&gt;&lt;/data&gt;&#xA;Please calculate the corresponding eigenvalues.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

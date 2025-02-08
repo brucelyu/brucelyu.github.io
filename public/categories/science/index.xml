@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - Hack it!</title>
-        <link>//localhost:1313/posts/</link>
-        <description>All Posts | Hack it!</description>
+        <title>Science - Category - Hack it!</title>
+        <link>//localhost:1313/categories/science/</link>
+        <description>Science - Category - Hack it!</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
-            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Sat, 02 Mar 2024 04:12:33 &#43;0000</lastBuildDate><atom:link href="//localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Sat, 02 Mar 2024 04:12:33 &#43;0000</lastBuildDate><atom:link href="//localhost:1313/categories/science/" rel="self" type="application/rss+xml" /><item>
     <title>Basics of Particle Physics: books and courses</title>
     <link>//localhost:1313/posts/2024-03-02-basics-of-particle-physics-books-and-courses/</link>
     <pubDate>Sat, 02 Mar 2024 04:12:33 &#43;0000</pubDate>
@@ -12,22 +12,6 @@
     <guid>//localhost:1313/posts/2024-03-02-basics-of-particle-physics-books-and-courses/</guid>
     <description><![CDATA[<p>Where to learn entry-level particle physics? Like most people, I have been hearing about words like &ldquo;quarks, hadrons, leptons&rdquo; since junior high school. However, I have never known the next step for learning more about them. The talk by David Gross during <a href="https://xllyu.org/quantum-connection-2023-summer-school/" target="_blank" rel="noopener noreffer ">a summer school in Sweden last summer</a> completely aroused interest in this subject.</p>
 <p>During the lunar new year season, which was early February this year, I found time to dive into this subject a little. I want to first get an overview of this subject, focusing on building a physical picture and intuitive feelings, avoiding technical details as much as possible. Therefore, I started exploring all kinds of textbooks and videos to searchfor what I want.<!-- raw HTML omitted --></p>]]></description>
-</item>
-<item>
-    <title>Build a static website using Hugo and deploy it on GitHub</title>
-    <link>//localhost:1313/posts/2023-07-15-hugo-github-page/</link>
-    <pubDate>Sat, 15 Jul 2023 00:00:00 &#43;0000</pubDate>
-    <author>Xinliang Lyu</author>
-    <guid>//localhost:1313/posts/2023-07-15-hugo-github-page/</guid>
-    <description><![CDATA[<p>I learned how to build a simple personal webpage using Hugo and deploy it on GitHub today.
-I must say it is not the simplest way to build your own personal website.
-In order to do this, you should be comforable with</p>
-<ul>
-<li>basic coding process and</li>
-<li>command line: for Mac it is terminal application, for windows, it is PowerShell</li>
-</ul>
-<p>Why? The whole process isn&rsquo;t through graphic interface through clicking and dragging.
-Instead, we rely heavily on create and editing <em>files</em> to modify and add contents to our webpage.</p>]]></description>
 </item>
 </channel>
 </rss>
