@@ -14,13 +14,11 @@ languageName = "English"
 hasCJKLanguage = true
 
 # default amount of posts in each pages
-paginate = 12
+[pagination]
+  disableAliases = false
+  pagerSize = 12
+  path = 'page'
 
-# Author config
-[author]
-  name = "Xinliang Lyu"
-  email = "lyu@xllyu.org"
-  link = ""
 
 # Menu config
 [menu]
@@ -76,6 +74,12 @@ paginate = 12
   description = "Amazing stuffs"
   # website images for Open Graph and Twitter Cards
   images = ["/the-matrix.jpg"]
+
+# Author config
+  [params.author]
+    name = "Xinliang Lyu"
+    email = "lyu@xllyu.org"
+    link = ""
 
  # Header config
   [params.header]
