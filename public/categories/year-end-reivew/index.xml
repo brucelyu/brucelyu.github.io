@@ -1,0 +1,26 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Year-End Reivew - Category - Hack it!</title>
+        <link>//localhost:1313/categories/year-end-reivew/</link>
+        <description>Year-End Reivew - Category - Hack it!</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
+            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Mon, 21 Jan 2019 03:58:53 &#43;0000</lastBuildDate><atom:link href="//localhost:1313/categories/year-end-reivew/" rel="self" type="application/rss+xml" /><item>
+    <title>Summary for 2018</title>
+    <link>//localhost:1313/posts/summary-for-2018/</link>
+    <pubDate>Mon, 21 Jan 2019 03:58:53 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>//localhost:1313/posts/summary-for-2018/</guid>
+    <description><![CDATA[<p>I learned a lot of physics in 2018, and here is a summary!</p>
+<h2 id="first-half-the-year">First Half the Year</h2>
+<p>In January, I finished <a href="https://courses.edx.org/courses/course-v1:MITx&#43;8.04.1x&#43;3T2017/course/" target="_blank" rel="noopener noreffer "><strong>8.04x, Quantum Mechanics</strong></a> an online course provided by MITx and got perfect grades, 92, 94, and 88 for three exams.
+8.04x was lectured by Professor Barton Zwiebach, whose doctoral advisor is Murray Gell-mann.
+This course introduced basic concepts of Quantum Mechanics and did standard 1-D potential examples, such as square wells, Dirac-delta potential and harmonic oscillators, along with several important theorems for 1-D potential.
+Besides, it gave a detailed treatment on scattering states in 1-D, covering topics like time delay, Levinson&rsquo;s theorem and resonance.
+The course ended with central potential and Hydrogen Atom.
+It was a challenging but rewarding course, and of course, interesting!
+What makes this course stand out among all other online courses is its active discussion forum.
+I met lots of interesting physics and math geeks there, Mark, Jolyon, Jim, BlueFlow and Jonathan, and the discussion about physics with them made my learn experience vivid and lovely (Actually, I read their discussions in forum most of the time).
+Later in September 2018, Jim offered me an unexpected research experience, which was the first time I worked with a real physicist!</p>]]></description>
+</item>
+</channel>
+</rss>

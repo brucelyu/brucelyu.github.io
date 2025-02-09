@@ -3,6 +3,7 @@ title: 'Basics of Particle Physics: books and courses'
 date: 2024-03-02T04:12:33+00:00
 categories: [Science, Study Notes]
 slug: basics-of-particle-physics-books-and-courses
+comments: true  # Enable Disqus comments for specific page
 ---
 
 Where to learn entry-level particle physics? Like most people, I have been hearing about words like "quarks, hadrons, leptons" since junior high school. However, I have never known the next step for learning more about them. The talk by David Gross during [a summer school in Sweden last summer][1] completely aroused interest in this subject.
