@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>New Year Plans - Category - Hack it!</title>
-        <link>//localhost:1313/categories/new-year-plans/</link>
+        <link>/categories/new-year-plans/</link>
         <description>New Year Plans - Category - Hack it!</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
-            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Sat, 22 Jun 2019 14:37:20 &#43;0000</lastBuildDate><atom:link href="//localhost:1313/categories/new-year-plans/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Sat, 22 Jun 2019 14:37:20 &#43;0000</lastBuildDate><atom:link href="/categories/new-year-plans/" rel="self" type="application/rss+xml" /><item>
     <title>Goals for 2019</title>
-    <link>//localhost:1313/posts/goals-for-2019/</link>
+    <link>/posts/goals-for-2019/</link>
     <pubDate>Sat, 22 Jun 2019 14:37:20 &#43;0000</pubDate>
     <author>Xinliang Lyu</author>
-    <guid>//localhost:1313/posts/goals-for-2019/</guid>
+    <guid>/posts/goals-for-2019/</guid>
     <description><![CDATA[<p>Here are a few things that I want to achieve in 2019.</p>
 <h2 id="non-physics">Non-physics</h2>
 <p>I hope I can finish writing up my master thesis before September.

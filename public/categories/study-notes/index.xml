@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Study Notes - Category - Hack it!</title>
-        <link>//localhost:1313/categories/study-notes/</link>
+        <link>/categories/study-notes/</link>
         <description>Study Notes - Category - Hack it!</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
-            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Sat, 02 Mar 2024 04:12:33 &#43;0000</lastBuildDate><atom:link href="//localhost:1313/categories/study-notes/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Sat, 02 Mar 2024 04:12:33 &#43;0000</lastBuildDate><atom:link href="/categories/study-notes/" rel="self" type="application/rss+xml" /><item>
     <title>Basics of Particle Physics: books and courses</title>
-    <link>//localhost:1313/posts/basics-of-particle-physics-books-and-courses/</link>
+    <link>/posts/basics-of-particle-physics-books-and-courses/</link>
     <pubDate>Sat, 02 Mar 2024 04:12:33 &#43;0000</pubDate>
     <author>Xinliang Lyu</author>
-    <guid>//localhost:1313/posts/basics-of-particle-physics-books-and-courses/</guid>
+    <guid>/posts/basics-of-particle-physics-books-and-courses/</guid>
     <description><![CDATA[<p>Where to learn entry-level particle physics? Like most people, I have been hearing about words like &ldquo;quarks, hadrons, leptons&rdquo; since junior high school. However, I have never known the next step for learning more about them. The talk by David Gross during <a href="https://xllyu.org/quantum-connection-2023-summer-school/" target="_blank" rel="noopener noreffer ">a summer school in Sweden last summer</a> completely aroused interest in this subject.</p>
 <p>During the lunar new year season, which was early February this year, I found time to dive into this subject a little. I want to first get an overview of this subject, focusing on building a physical picture and intuitive feelings, avoiding technical details as much as possible. Therefore, I started exploring all kinds of textbooks and videos to searchfor what I want.<!-- raw HTML omitted --></p>]]></description>
 </item>

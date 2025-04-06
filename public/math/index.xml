@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maths on Hack it!</title>
-    <link>//localhost:1313/math/</link>
+    <link>/math/</link>
     <description>Recent content in Maths on Hack it!</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
     <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster>
     <lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/math/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exercises in linear algebra</title>
-      <link>//localhost:1313/math/linalg/</link>
+      <link>/math/linalg/</link>
       <pubDate>Fri, 19 Jul 2024 10:50:10 +0900</pubDate><author>lyu@xllyu.org (Xinliang Lyu)</author>
-      <guid>//localhost:1313/math/linalg/</guid>
+      <guid>/math/linalg/</guid>
       <description>&lt;p&gt;Page created on &lt;em&gt;19 July 2024&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Last modified on &lt;em&gt;20 July 2024&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;i-eigenvalue-problems&#34;&gt;I. Eigenvalue problems&lt;/h2&gt;&#xA;&lt;p&gt;As a review, the eigenvalue problem of a given matrix $\mathbf{M}$ is&#xA;&lt;data id=&#34;id-1&#34; data-raw&gt;&lt;/data&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;i1-eigenvalues-of-a-symmetric-matirx&#34;&gt;I.1 Eigenvalues of a symmetric matirx&lt;/h3&gt;&#xA;&lt;p&gt;We haven&amp;rsquo;t talked about how to solve the eigenvalue problem from scratch.&#xA;So, here, we write down a matrix and I will tell you the eigenvectors.&#xA;You try calculting the corresponding eignevalues.&#xA;Here is the matrix&#xA;&lt;data id=&#34;id-2&#34; data-raw&gt;&lt;/data&gt;&#xA;and I tell you its two eigenvectors are&#xA;&lt;data id=&#34;id-3&#34; data-raw&gt;&lt;/data&gt;&#xA;Please calculate the corresponding eigenvalues.&lt;/p&gt;</description>
     </item>
   </channel>

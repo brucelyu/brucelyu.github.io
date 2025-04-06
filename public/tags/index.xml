@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - Hack it!</title>
-        <link>//localhost:1313/tags/</link>
+        <link>/tags/</link>
         <description>Tags - Tag - Hack it!</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
-            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><atom:link href="//localhost:1313/tags/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><atom:link href="/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
