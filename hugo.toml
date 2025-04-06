@@ -176,15 +176,7 @@ hasCJKLanguage = true
 [params.social]
     GitHub = "brucelyu"
     Email = "lyu@xllyu.org"
-    [params.social.Wordpress]
-    # weight when arranging icons (the greater the weight, the later the icon is positioned)
-    weight = 200
-    # your social ID
-    id = "about"
-    # prefix of your social link
-    prefix = "https://xllyu.org/"
-    # content hovering on the icon
-    title = "Main website"
+    Googlescholar = "VuDAx2IAAAAJ&hl=en"
 
 	# LoveIt CHANGED | 0.2.0 Comment config
     [params.page.comment]
