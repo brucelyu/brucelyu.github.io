@@ -2,6 +2,7 @@
 title: Pursue Your Passion and Results Will Be Unexpected — Boosting Your Career Through Independent Learning
 date: 2019-06-24T15:42:58+00:00
 slug: pursue-physics
+aliases: /pursue-your-passion-and-results-will-be-unexpected-boosting-your-career-through-independent-learning
 categories: [Year-end Reivew]
 comments: true  # Enable Disqus comments for specific page
 ---
