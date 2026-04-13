@@ -1,10 +1,24 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Year-End Reivew - Category - Hack it!</title>
-        <link>/categories/year-end-reivew/</link>
-        <description>Year-End Reivew - Category - Hack it!</description>
+        <title>Year-End Review - Category - Hack it!</title>
+        <link>/categories/year-end-review/</link>
+        <description>Year-End Review - Category - Hack it!</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
-            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Mon, 24 Jun 2019 15:42:58 &#43;0000</lastBuildDate><atom:link href="/categories/year-end-reivew/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Sat, 06 Jan 2024 12:19:18 &#43;0000</lastBuildDate><atom:link href="/categories/year-end-review/" rel="self" type="application/rss+xml" /><item>
+    <title>2023 Summary of Spirituality — Bible, Dostoevsky and Hindu culture</title>
+    <link>/posts/2023-summary-of-spirituality-bible-dostoevsky-and-hindu-culture/</link>
+    <pubDate>Sat, 06 Jan 2024 12:19:18 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/2023-summary-of-spirituality-bible-dostoevsky-and-hindu-culture/</guid>
+    <description><![CDATA[<h2 id="newton-and-god">Newton and God</h2>
+<p>In modern people&rsquo;s mind, science like fundament physics and spirituality (or mysticism) like the Bible are contradictory to each other.
+From my experience of interacting with my physicist friends and colleagues here in Japan, I think this perception is correct.
+At least, most physicists aren&rsquo;t interested in spirituality.</p>
+<p>However, there is a very crucial exception. When studying Newtonian physics in high school, I was not satisfied with learning just from the textbook and went on browsing through Newton&rsquo;s <em>Principia</em>.
+I was shocked when reading an essay, known as <a href="https://en.wikipedia.org/wiki/General_Scholium" target="_blank" rel="noopener noreffer "><em>General Scholium</em></a>, attached to respond some of the criticism to the first edition.
+There is a whole paragraph saying that one of the purpose of <em>Principia</em> is understanding <em>Lord God</em>:</p>]]></description>
+</item>
+<item>
     <title>Pursue Your Passion and Results Will Be Unexpected — Boosting Your Career Through Independent Learning</title>
     <link>/posts/pursue-physics/</link>
     <pubDate>Mon, 24 Jun 2019 15:42:58 &#43;0000</pubDate>
