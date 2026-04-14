@@ -150,9 +150,9 @@ I think this yoga has started changing my trajectory of life.
  [4]: https://en.wikipedia.org/wiki/Inner_Engineering:_A_Yogi's_Guide_to_Joy
  [5]: https://xllyu.org/summer-holiday-2023/
  [6]: https://www.goodreads.com/book/show/31907.A_Short_History_of_Chinese_Philosophy
- [7]: https://xllyu.org/a-fascinating-series-of-lectures-on-psychology-phenomenology-personality-and-the-transformation-of-personality-by-dr-jordan-peterson/
+ [7]: https://xllyu.org/posts/a-fascinating-series-of-lectures-on-psychology-phenomenology-personality-and-the-transformation-of-personality-by-dr-jordan-peterson/
  [8]: https://youtube.com/playlist?list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&si=_mD7ncSHTW3Shkn1
- [9]: https://xllyu.org/jesus-101/
+ [9]: https://xllyu.org/posts/jesus-101/
  [10]: https://watch.thechosen.tv/
  [11]: https://plato.stanford.edu/entries/heidegger/
  [12]: https://www.goodreads.com/book/show/30257963-12-rules-for-life

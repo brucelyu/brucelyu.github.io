@@ -10,8 +10,56 @@
     <pubDate>Sat, 02 Mar 2024 04:12:33 &#43;0000</pubDate>
     <author>Xinliang Lyu</author>
     <guid>/posts/basics-of-particle-physics-books-and-courses/</guid>
-    <description><![CDATA[<p>Where to learn entry-level particle physics? Like most people, I have been hearing about words like &ldquo;quarks, hadrons, leptons&rdquo; since junior high school. However, I have never known the next step for learning more about them. The talk by David Gross during <a href="https://xllyu.org/quantum-connection-2023-summer-school/" target="_blank" rel="noopener noreffer ">a summer school in Sweden last summer</a> completely aroused interest in this subject.</p>
+    <description><![CDATA[<p>Where to learn entry-level particle physics? Like most people, I have been hearing about words like &ldquo;quarks, hadrons, leptons&rdquo; since junior high school. However, I have never known the next step for learning more about them. The talk by David Gross during <a href="https://xllyu.org/posts/quantum-connection-2023-summer-school/" target="_blank" rel="noopener noreffer ">a summer school in Sweden last summer</a> completely aroused interest in this subject.</p>
 <p>During the lunar new year season, which was early February this year, I found time to dive into this subject a little. I want to first get an overview of this subject, focusing on building a physical picture and intuitive feelings, avoiding technical details as much as possible. Therefore, I started exploring all kinds of textbooks and videos to searchfor what I want.<!-- raw HTML omitted --></p>]]></description>
+</item>
+<item>
+    <title>Summary for 2023 — Physics (continued)</title>
+    <link>/posts/summary-for-2023-physics-continued/</link>
+    <pubDate>Tue, 02 Jan 2024 13:28:38 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/summary-for-2023-physics-continued/</guid>
+    <description><![CDATA[<h2 id="quantum-information-and-error-correction-by-daniel-gottesman-and-artur-ekert">Quantum Information and error correction by Daniel Gottesman and Artur Ekert</h2>
+<p>During January to April in 2023, while studying quantum error correction in the textbook reading session of our research group, I discovered several wonderful resources other than Preskill&rsquo;s notes.
+I list them below:</p>
+<ul>
+<li><em>Artur Ekert&rsquo;s</em> <a href="https://youtube.com/playlist?list=PLkespgaZN4gmu0nWNmfMflVRqw0VPkCGH&amp;si=3UlPbnDnhYLAHW_E" target="_blank" rel="noopener noreffer ">Introduction to Quantum Information</a> on YouTube.
+I have watched the last part about quantum error correction and I think Ekert&rsquo;s explanation is the most intuitive one.
+It is crystal clear.
+He can use a simple diagram and baby example to make a complicated idea transparent.</li>
+<li>Daniel Gottesman&rsquo;s and Ben Yoshida&rsquo;s <a href="https://pirsa.org/C17045" target="_blank" rel="noopener noreffer "><em>Quantum Error Correction</em> videos</a> in Perimeter Institute.
+I think I just finished watching half of them.
+Gottesman&rsquo;s exposition of this topic has a different style than Ekert.
+It is more mathematical, with theorems followed by proofs.
+I feel these two are good to be watched together.
+In last lecture by Ben Yoshida, he even explains a fair advanced topic of treating black hole information paradox using the quantum error correction as a tool.</li>
+<li>Daniel Gottesman&rsquo;s <a href="https://pirsa.org/C19010?page=0" target="_blank" rel="noopener noreffer "><em>Quantum Information</em> videos</a> in Perimeter Institute.
+I only watched the last video about quantum channel capacity as a complement to Preskill&rsquo;s notes.
+I think Gottesman&rsquo;s proof is more complete and detailed than Preskill&rsquo;s notes.
+I benefited a lot from Gottesman.</li>
+</ul>
+<h2 id="polyakovs-great-show-in-modern-classical-dynamics">Polyakov&rsquo;s great show in modern classical dynamics</h2>
+<p>Apart from black hole physics, the other experience that makes my 2023&rsquo;s physics journey unforgettable is Polyakov&rsquo;s Modern Classical Physics course, along with various topics inspired by this course.
+Polyakov uses classical physics to thread several beautiful modern topics together.
+Here are several examples:</p>]]></description>
+</item>
+<item>
+    <title>Summary for 2023 — Physics</title>
+    <link>/posts/summary-for-2023-physics/</link>
+    <pubDate>Sun, 31 Dec 2023 07:55:05 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/summary-for-2023-physics/</guid>
+    <description><![CDATA[<p>The effect of pandemic decayed away in 2023, so I attended many activities.
+This is the most dynamical year since the start of graduate school in 2019.
+I split the summary into two posts.
+In this first post, I will talk about two travels I had this year and my adventure in black-hole physics.</p>
+<h2 id="traveling-aboard-aps-marching-meeting-and-quantum-connection-summer-school-in-sweden">Traveling aboard: APS Marching Meeting and Quantum Connection summer school in Sweden</h2>
+<p>The first on-site APS (stands for American Physical Society) March Meeting after the pandemic occurred in Las Vegas.
+There is no way to miss this opportunity to visit this city, which appears in many movies.
+What&rsquo;s more, one of my friends that I met when learning physics course online, a professional poker, <a href="https://www.youtube.com/@markweitzman/featured" target="_blank" rel="noopener noreffer ">Mark Weitzman</a>, is in Las Vegas!
+He really helped me a lot during <a href="https://xllyu.org/posts/pursue-physics/" target="_blank" rel="noopener noreffer ">my self-study project</a> from 2016 to 2019.
+It&rsquo;s a great opportunity to meet him.
+I also got to meet my first professor in physics, <a href="https://physics.georgetown.edu/jim-freericks" target="_blank" rel="noopener noreffer ">Jim Freericks</a>, during the meeting.</p>]]></description>
 </item>
 </channel>
 </rss>

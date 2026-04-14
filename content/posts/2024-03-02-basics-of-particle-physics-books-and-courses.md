@@ -39,4 +39,4 @@ It doesn't feel like a popular science book because sometimes it feels quite det
 I believe the author has tried his best transitioning mathematical expressions into words. 
 So, it is a very nice and rare book for people like PhD students or physicists who are not familiar with particle physics, since they have enough theoretical background. I feel it prepares me a lot for my future attack on QFT.
 
- [1]: https://xllyu.org/quantum-connection-2023-summer-school/
+ [1]: https://xllyu.org/posts/quantum-connection-2023-summer-school/
