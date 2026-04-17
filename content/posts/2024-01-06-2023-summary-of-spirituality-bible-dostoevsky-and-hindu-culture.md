@@ -148,7 +148,7 @@ I think this yoga has started changing my trajectory of life.
  [2]: https://isha.sadhguru.org/yoga/meditations/guided-meditation/
  [3]: https://en.wikipedia.org/wiki/Yoga_Sutras_of_Patanjali
  [4]: https://en.wikipedia.org/wiki/Inner_Engineering:_A_Yogi's_Guide_to_Joy
- [5]: https://xllyu.org/summer-holiday-2023/
+ [5]: https://xllyu.org/posts/summer-holiday-2023/
  [6]: https://www.goodreads.com/book/show/31907.A_Short_History_of_Chinese_Philosophy
  [7]: https://xllyu.org/posts/a-fascinating-series-of-lectures-on-psychology-phenomenology-personality-and-the-transformation-of-personality-by-dr-jordan-peterson/
  [8]: https://youtube.com/playlist?list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat&si=_mD7ncSHTW3Shkn1
