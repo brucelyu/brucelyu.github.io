@@ -1,0 +1,36 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Diary - Category - Hack it!</title>
+        <link>/categories/diary/</link>
+        <description>Diary - Category - Hack it!</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
+            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Sun, 24 Dec 2023 15:34:53 &#43;0000</lastBuildDate><atom:link href="/categories/diary/" rel="self" type="application/rss+xml" /><item>
+    <title>Summer holiday 2023 (continued)</title>
+    <link>/posts/summer-holiday-2023-continued/</link>
+    <pubDate>Sun, 24 Dec 2023 15:34:53 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/summer-holiday-2023-continued/</guid>
+    <description><![CDATA[<p>This post continues talking about my <a href="https://xllyu.org/posts/summer-holiday-2023/" target="_blank" rel="noopener noreffer ">summer holiday from August to September</a>.
+I will talk about movies I watched and books I read.</p>
+<h2 id="the-brothers-karamazov">The Brothers Karamazov</h2>
+<p><figure><a class="lightgallery" href="/posts/images/2023/karamazov-movie.png" title="/posts/images/2023/karamazov-movie.png" data-thumbnail="/posts/images/2023/karamazov-movie.png" data-sub-html="<h2>Ivan explains to Alyosha about his opinion about God in this 1968 movie</h2>">
+        
+    </a><figcaption class="image-caption">Ivan explains to Alyosha about his opinion about God in this 1968 movie</figcaption>
+    </figure></p>
+<p>Reading Dostoevsky has always been one of my dreams since 2013, when one of my friends expressed her deep reverence to this great writer, the pioneer of modern psychology, and a great influencer of great philosophies like Nietzsche.
+However, Dostoevsky&rsquo;s novels have a reputation for being hard to read, and I indeed got completely lost when reading his Crime and Punishment in 2014.
+As a result, I have been a little frightened and never dared to try reading him again for almost 10 years.</p>]]></description>
+</item>
+<item>
+    <title>Summer holiday 2023</title>
+    <link>/posts/summer-holiday-2023/</link>
+    <pubDate>Sat, 23 Dec 2023 15:05:31 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/summer-holiday-2023/</guid>
+    <description><![CDATA[<p>I finally had a chance to go back to my hometown in this summer after more than three years of the pandemic.
+After attending one <a href="https://statphys28.org/" target="_blank" rel="noopener noreffer ">international conference</a> on Statistical Mechanics, I flew back to Shanghai on 18 August.
+I spent the weekend meeting my friends in Tongji University, and then went back to my hometown on 21 August.
+I stayed in my parents&rsquo; place for about three weeks and returned Tokyo on 10 September.</p>]]></description>
+</item>
+</channel>
+</rss>

@@ -1,7 +1,6 @@
 ---
 title: "Summary for 2023 — Physics"
 date: 2023-12-31T07:55:05+00:00
-lastmod: "2024-10-18"
 categories: [Science, Year-end Review]
 slug: summary-for-2023-physics
 ---

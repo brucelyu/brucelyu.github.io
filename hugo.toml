@@ -155,9 +155,9 @@ hasCJKLanguage = true
       # URL of avatar shown in home page
       avatarURL = "img/the-matrix.jpg"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = ""
+      title = "Seeker of Truth"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "We should consider every day lost on which we have not danced at least once.—Friedrich Nietzsche"
+      subtitle = "Working like a man means that a man feels what he is doing and thinks why and for what he does it, how he is doing it now, how it had to be done yesterday and how today, how he would have to do it tomorrow, and how it is generally best to get it done—whether there is a better way.—Gurdjieff"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
