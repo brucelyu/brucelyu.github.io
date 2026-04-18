@@ -3,6 +3,7 @@ title: "Summer holiday 2023 (continued)"
 date: 2023-12-24T15:34:53+00:00
 categories: [Diary]
 slug: summer-holiday-2023-continued
+comments: true  # Enable Disqus comments for specific page
 ---
 
 This post continues talking about my [summer holiday from August to September][1]. 

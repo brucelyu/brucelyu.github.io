@@ -2,7 +2,7 @@
     <channel>
         <title>Hack it!</title>
         <link>/</link>
-        <description>Amazing stuffs</description>
+        <description>My personal blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
             <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Fri, 19 Jul 2024 10:50:10 &#43;0900</lastBuildDate>
             <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -106,6 +106,44 @@ I spent the weekend meeting my friends in Tongji University, and then went back 
 I stayed in my parents&rsquo; place for about three weeks and returned Tokyo on 10 September.</p>]]></description>
 </item>
 <item>
+    <title>《流浪者之歌》和《薄伽梵歌》</title>
+    <link>/posts/siddhartha-and-bhagavad-gita/</link>
+    <pubDate>Thu, 17 Aug 2023 15:23:03 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/siddhartha-and-bhagavad-gita/</guid>
+    <description><![CDATA[<p>During the end of July and early August, I finish two books: <em>Siddhartha</em> and <em>Bhagavad Gita</em>, both related to Indian tradition and culture.
+Since I read in Chinese, the post will be written in Chinese.
+In summary, I just want to express my excitement to see a great epic like <em>Bhagavad Gita</em>, which is concise but very, very deep.
+Surprisingly, it is not hard to read.
+By the way, I choose this particular epic since Oppenheimer quoted it in some interview.
+I have known this since 2010 from my physics teacher.
+Finally, I read this book!</p>]]></description>
+</item>
+<item>
+    <title>Memoirs: Polyakov, Migdal and Polchinski</title>
+    <link>/posts/memoirs-polyakov-migdal-and-polchinski/</link>
+    <pubDate>Sat, 29 Jul 2023 14:57:50 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/memoirs-polyakov-migdal-and-polchinski/</guid>
+    <description><![CDATA[<p>I finished reading several memoirs of physicists this month.
+Two are Russian-born physicists, <strong>Alexander Polyakov</strong> and <strong>Alexander Migdal</strong>.
+One is the author of a modern String Theory textbook, <strong>Polchinski</strong>.
+I prefer the memoirs of the first two, since they are much more colorful, lively, and interesting.
+I can feel their unique character behind the text.
+The early part of Polchinski&rsquo;s memoir is also not bad, but the later part is a little too technical and hard for me to follow.</p>]]></description>
+</item>
+<item>
+    <title>威廉·布莱克的开放意识 (Blake’s Open Awareness)</title>
+    <link>/posts/blake-open-awareness/</link>
+    <pubDate>Sun, 16 Jul 2023 08:46:44 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/blake-open-awareness/</guid>
+    <description><![CDATA[<p>Early this year, I was thinking about how a person should act in the world.
+Very implicitly, I feel the key word should be <em>authentic</em>, without knowing much about the meaning of this word.
+I did some research online and discovered an inspiring essay called, <em>Love, Open Awareness, and Authenticity: A conversation with William Blake and D. W. Winnicott</em> [1].
+I like it so much that I want to translate page 20 to 24 about Blake&rsquo;s open awareness into Chinese.</p>]]></description>
+</item>
+<item>
     <title>Build a static website using Hugo and deploy it on GitHub</title>
     <link>/posts/2023-07-15-hugo-github-page/</link>
     <pubDate>Sat, 15 Jul 2023 00:00:00 &#43;0000</pubDate>
@@ -120,56 +158,6 @@ In order to do this, you should be comforable with</p>
 </ul>
 <p>Why? The whole process isn&rsquo;t through graphic interface through clicking and dragging.
 Instead, we rely heavily on create and editing <em>files</em> to modify and add contents to our webpage.</p>]]></description>
-</item>
-<item>
-    <title>Pursue Your Passion and Results Will Be Unexpected — Boosting Your Career Through Independent Learning</title>
-    <link>/posts/pursue-physics/</link>
-    <pubDate>Mon, 24 Jun 2019 15:42:58 &#43;0000</pubDate>
-    <author>Xinliang Lyu</author>
-    <guid>/posts/pursue-physics/</guid>
-    <description><![CDATA[<p>本文的中文版请点击<a href="https://xllyu.org/pursue-physics/" target="_blank" rel="noopener noreffer ">这里</a></p>
-<p>I was trained to be a structural engineer but I want to be a theoretical physicist.</p>
-<p>I was major in Japanese when I was a freshman in 2013.
-It was exciting and happy to study with so many young girls together: there are about 50 students who were major in Japanese but only five fellows!
-For a boy focusing on science side in high school in China, he had hardly seen over 10 girls during his whole high school life.
-Such a situation could not be better!
-Sadly, the boy read too many science popular books and was more curious about peculiar quantum mechanics, or even string theory at that time, so he decided to change his major.
-He first did some research on physics major in his university, but it turned out the people in the physics department look nothing like the characters in his book: Niels Bohr, Wolfgang Pauli, Richard Feynman, Albert Einstein, etc.
-As a result, he had to take the second best and went to civil engineering major, hoping he could meet more geek-like people there, since it was (and still is) the department with the most eminent professors and students in the country.
-He started his undergraduate training in structure engineering in 2014.</p>]]></description>
-</item>
-<item>
-    <title>Goals for 2019</title>
-    <link>/posts/goals-for-2019/</link>
-    <pubDate>Sat, 22 Jun 2019 14:37:20 &#43;0000</pubDate>
-    <author>Xinliang Lyu</author>
-    <guid>/posts/goals-for-2019/</guid>
-    <description><![CDATA[<p>Here are a few things that I want to achieve in 2019.</p>
-<h2 id="non-physics">Non-physics</h2>
-<p>I hope I can finish writing up my master thesis before September.
-The plan is to finish the first draft before mid July, and working on its revision starting from mid August.</p>
-<h2 id="about-physics">About Physics</h2>
-<p>I&rsquo;m so happy that The University of Tokyo (UTokyo) gives me one graduate school offer, so I can start my physics journey!
-Before attending UTokyo in September this year, I still need to learn more physics on my own.
-Here are my plans for first half year:</p>]]></description>
-</item>
-<item>
-    <title>Summary for 2018</title>
-    <link>/posts/summary-for-2018/</link>
-    <pubDate>Mon, 21 Jan 2019 03:58:53 &#43;0000</pubDate>
-    <author>Xinliang Lyu</author>
-    <guid>/posts/summary-for-2018/</guid>
-    <description><![CDATA[<p>I learned a lot of physics in 2018, and here is a summary!</p>
-<h2 id="first-half-the-year">First Half the Year</h2>
-<p>In January, I finished <a href="https://courses.edx.org/courses/course-v1:MITx&#43;8.04.1x&#43;3T2017/course/" target="_blank" rel="noopener noreffer "><strong>8.04x, Quantum Mechanics</strong></a> an online course provided by MITx and got perfect grades, 92, 94, and 88 for three exams.
-8.04x was lectured by Professor Barton Zwiebach, whose doctoral advisor is Murray Gell-mann.
-This course introduced basic concepts of Quantum Mechanics and did standard 1-D potential examples, such as square wells, Dirac-delta potential and harmonic oscillators, along with several important theorems for 1-D potential.
-Besides, it gave a detailed treatment on scattering states in 1-D, covering topics like time delay, Levinson&rsquo;s theorem and resonance.
-The course ended with central potential and Hydrogen Atom.
-It was a challenging but rewarding course, and of course, interesting!
-What makes this course stand out among all other online courses is its active discussion forum.
-I met lots of interesting physics and math geeks there, Mark, Jolyon, Jim, BlueFlow and Jonathan, and the discussion about physics with them made my learn experience vivid and lovely (Actually, I read their discussions in forum most of the time).
-Later in September 2018, Jim offered me an unexpected research experience, which was the first time I worked with a real physicist!</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -1,9 +1,9 @@
 ---
 title: "Summary for 2023 — Physics (continued)"
 date: 2024-01-02T13:28:38+00:00
-lastmod: "2024-10-18"
 categories: [Science, Year-end Review]
 slug: summary-for-2023-physics-continued
+comments: true  # Enable Disqus comments for specific page
 ---
 
 ## Quantum Information and error correction by Daniel Gottesman and Artur Ekert

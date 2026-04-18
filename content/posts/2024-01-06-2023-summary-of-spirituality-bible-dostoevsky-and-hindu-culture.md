@@ -60,7 +60,7 @@ In the following sections, I will summarize what I have learned and why do I lik
 
 | |  |
 | :----------------------: | :---------------------------------: |
-|{{< figure src="https://upload.wikimedia.org/wikipedia/commons/6/60/Sacrifice_of_Isaac-Caravaggio_%28Uffizi%29.jpg" width="200" caption="The Sacrifice of Isaac by Caravaggio" >}}  | {{< figure src="https://i0.wp.com/uploads4.wikiart.org/images/william-blake/illustration-to-book-of-job-2.jpg?w=1200&#038;ssl=1" width="200" caption="Illustration to Book of Job by William Blake" >}}   |
+|{{< figure src="/posts/images/2024/isaac-caravaggio.jpg" width="200" caption="The Sacrifice of Isaac by Caravaggio" >}}  | {{< figure src="/posts/images/2024/wblake-job.jpg" width="250" caption="Illustration to Book of Job by William Blake" >}}   |
 
 
 My first encounter of the Bible was in a philosophy course about existentialism in my freshman year around 2013. 

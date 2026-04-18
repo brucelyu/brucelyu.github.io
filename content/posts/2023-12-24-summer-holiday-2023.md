@@ -3,6 +3,7 @@ title: "Summer holiday 2023"
 date: 2023-12-23T15:05:31+00:00
 categories: [Diary]
 slug: summer-holiday-2023
+comments: true  # Enable Disqus comments for specific page
 ---
 
 I finally had a chance to go back to my hometown in this summer after more than three years of the pandemic. 

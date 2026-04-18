@@ -3,6 +3,7 @@ title: "Summary for 2023 — Physics"
 date: 2023-12-31T07:55:05+00:00
 categories: [Science, Year-end Review]
 slug: summary-for-2023-physics
+comments: true  # Enable Disqus comments for specific page
 ---
 
 The effect of pandemic decayed away in 2023, so I attended many activities. 
