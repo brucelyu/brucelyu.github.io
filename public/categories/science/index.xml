@@ -74,5 +74,42 @@ I prefer the memoirs of the first two, since they are much more colorful, lively
 I can feel their unique character behind the text.
 The early part of Polchinski&rsquo;s memoir is also not bad, but the later part is a little too technical and hard for me to follow.</p>]]></description>
 </item>
+<item>
+    <title>Modern Classical Dynamics by Polyakov at Princeton: Symmetry, Lagrangian and Hamiltonian Mechanics</title>
+    <link>/posts/modern-classical-dynamics-by-polyakov-at-princeton-symmetry-lagrangian-and-hamiltonian-mechanics/</link>
+    <pubDate>Sat, 08 Jul 2023 04:56:25 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/modern-classical-dynamics-by-polyakov-at-princeton-symmetry-lagrangian-and-hamiltonian-mechanics/</guid>
+    <description><![CDATA[<p>Early this year, I was so exciting to find a series of <a href="https://youtube.com/playlist?list=PLaNkJORnlhZlVDfLPMkokhDs76-5pJoI5&amp;si=i493C4dvw_NZtiwE" target="_blank" rel="noopener noreffer ">lecture videos on YouTube</a> about Classical Physics by Professor Alexander Polyakov.
+From the course website <a href="https://www.coursicle.com/princeton/courses/PHY/408/" target="_blank" rel="noopener noreffer ">here</a> or <a href="https://m.princeton.edu/default/courses/detail?term=1232&amp;area=PHY&amp;course=005174&amp;_tab=info" target="_blank" rel="noopener noreffer ">here</a>, you can find the description of this course:</p>
+<blockquote>
+<p>Discussion of the most beautiful and important parts of classical dynamics: variational principles, ergodicity and chaos, fluid dynamics of vortices, shock waves and solitons as well as the theories of developed turbulence.
+The main goal of this course is to demonstrate incredible power and elegance of theoretical physics.</p>]]></description>
+</item>
+<item>
+    <title>Kepler Problem</title>
+    <link>/posts/kepler-problem/</link>
+    <pubDate>Sun, 23 Apr 2023 16:24:15 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/kepler-problem/</guid>
+    <description><![CDATA[<p>Today I suddenly realized that Kepler problem is easier than I thought.
+I first met this problem in high school physics class around 2010 and 2011, where we were simply told that the orbit of a planet is an ellipse.
+The statement is clearly very important and it has a name, <em>Kepler&rsquo;s First Law</em>.
+However, all later calculations in high school are circular motions.
+I never actually derived this fact myself from Newton&rsquo;s law of motion.
+I believe the reason is that Calculus isn&rsquo;t taught in high school.</p>]]></description>
+</item>
+<item>
+    <title>General relativity: MIT video lectures</title>
+    <link>/posts/general-relativity-mit-video-lectures/</link>
+    <pubDate>Thu, 23 Mar 2023 15:15:28 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/general-relativity-mit-video-lectures/</guid>
+    <description><![CDATA[<p>From middle July 2022, I started studying general relativity (GR) again.
+I use three resource at the same time: 1) Prof. Scott Hughes’s MIT’s <em><a href="https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/" target="_blank" rel="noopener noreffer ">physics graduate course 8.962</a></em>, 2) the <em><a href="https://www.cambridge.org/highereducation/books/a-first-course-in-general-relativity/933C1A8C84420EF1349B676F0D70A065#overview" target="_blank" rel="noopener noreffer ">textbook by Schutz</a></em> and 3) Taylor, Wheeler and Bertschinger’s book: <em><a href="https://www.eftaylor.com/exploringblackholes/" target="_blank" rel="noopener noreffer ">Exploring Black Holes</a></em>.
+I&rsquo;m happy that I finally finished all the video lectures of Prof. Hughes&rsquo;s MIT course today.
+I talked about the first part of this course in my <a href="https://xllyu.org/posts/summary-for-2022-physics/" target="_blank" rel="noopener noreffer ">2022 summary of physics post</a>.
+After that, the second half of the course focuses on applications.</p>]]></description>
+</item>
 </channel>
 </rss>

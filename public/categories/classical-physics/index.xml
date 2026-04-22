@@ -1,0 +1,20 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Classical Physics - Category - Hack it!</title>
+        <link>/categories/classical-physics/</link>
+        <description>Classical Physics - Category - Hack it!</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
+            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Sat, 08 Jul 2023 04:56:25 &#43;0000</lastBuildDate><atom:link href="/categories/classical-physics/" rel="self" type="application/rss+xml" /><item>
+    <title>Modern Classical Dynamics by Polyakov at Princeton: Symmetry, Lagrangian and Hamiltonian Mechanics</title>
+    <link>/posts/modern-classical-dynamics-by-polyakov-at-princeton-symmetry-lagrangian-and-hamiltonian-mechanics/</link>
+    <pubDate>Sat, 08 Jul 2023 04:56:25 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/modern-classical-dynamics-by-polyakov-at-princeton-symmetry-lagrangian-and-hamiltonian-mechanics/</guid>
+    <description><![CDATA[<p>Early this year, I was so exciting to find a series of <a href="https://youtube.com/playlist?list=PLaNkJORnlhZlVDfLPMkokhDs76-5pJoI5&amp;si=i493C4dvw_NZtiwE" target="_blank" rel="noopener noreffer ">lecture videos on YouTube</a> about Classical Physics by Professor Alexander Polyakov.
+From the course website <a href="https://www.coursicle.com/princeton/courses/PHY/408/" target="_blank" rel="noopener noreffer ">here</a> or <a href="https://m.princeton.edu/default/courses/detail?term=1232&amp;area=PHY&amp;course=005174&amp;_tab=info" target="_blank" rel="noopener noreffer ">here</a>, you can find the description of this course:</p>
+<blockquote>
+<p>Discussion of the most beautiful and important parts of classical dynamics: variational principles, ergodicity and chaos, fluid dynamics of vortices, shock waves and solitons as well as the theories of developed turbulence.
+The main goal of this course is to demonstrate incredible power and elegance of theoretical physics.</p>]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Kepler Problem - Hack it!</title><meta name="Description" content="My personal blog"><meta property="og:url" content="/posts/kepler-problem/">
+  <meta property="og:site_name" content="Hack it!">
+  <meta property="og:title" content="Kepler Problem">
+  <meta property="og:description" content="Today I suddenly realized that Kepler problem is easier than I thought. I first met this problem in high school physics class around 2010 and 2011, where we were simply told that the orbit of a planet is an ellipse. The statement is clearly very important and it has a name, Kepler’s First Law. However, all later calculations in high school are circular motions. I never actually derived this fact myself from Newton’s law of motion. I believe the reason is that Calculus isn’t taught in high school.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-04-23T16:24:15+00:00">
+    <meta property="article:modified_time" content="2023-04-23T16:24:15+00:00">
+    <meta property="og:image" content="/img/the-matrix.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="/img/the-matrix.jpg">
+  <meta name="twitter:title" content="Kepler Problem">
+  <meta name="twitter:description" content="Today I suddenly realized that Kepler problem is easier than I thought. I first met this problem in high school physics class around 2010 and 2011, where we were simply told that the orbit of a planet is an ellipse. The statement is clearly very important and it has a name, Kepler’s First Law. However, all later calculations in high school are circular motions. I never actually derived this fact myself from Newton’s law of motion. I believe the reason is that Calculus isn’t taught in high school.">
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="/posts/kepler-problem/" /><link rel="prev" href="/posts/jesus-101/" /><link rel="next" href="/posts/life-as-an-engineering-process/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Kepler Problem",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/posts\/kepler-problem\/"
+        },"genre": "posts","wordcount":  1057 ,
+        "url": "\/posts\/kepler-problem\/","datePublished": "2023-04-23T16:24:15+00:00","dateModified": "2023-04-23T16:24:15+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Xinliang Lyu"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Hack it!">Hack it</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Hack it!">Hack it</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Kepler Problem</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Xinliang Lyu</a></span>&nbsp;<span class="post-category">included in <a href="/categories/diary/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Diary</a>&nbsp;<a href="/categories/science/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Science</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-04-23">2023-04-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1057 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#kepler-problem-in-newtonian-gravity-as-simple-as-possible">Kepler problem in Newtonian gravity as simple as possible</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Today I suddenly realized that Kepler problem is easier than I thought.
+I first met this problem in high school physics class around 2010 and 2011, where we were simply told that the orbit of a planet is an ellipse.
+The statement is clearly very important and it has a name, <em>Kepler&rsquo;s First Law</em>.
+However, all later calculations in high school are circular motions.
+I never actually derived this fact myself from Newton&rsquo;s law of motion.
+I believe the reason is that Calculus isn&rsquo;t taught in high school.</p>
+<p>During undergraduate years, finally, we learned about Calculus.
+However, those students who are not major in physics never return to the Kepler problem.
+The starting point for Kepler problem in this new Calculus language is of course Newton&rsquo;s second law (mass $\times$ accelerator $=$ force, or $ma = F$),</p>
+<p>\begin{align}
+m\ddot{\mathbf{r}} = -\frac{GMm}{r^2} \hat{\mathbf{r}},
+\end{align}</p>
+<p>which looks pretty daunting.
+One can hardly see how this differential equation gives rise to an ellipse orbit, whose equation looks like</p>
+<p>\begin{align}
+\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1.
+\end{align}</p>
+<p>In fact, one cannot even see why the orbit should be a closed shape from this differential equation
+(do you know why we cannot see this? See Feynman&rsquo;s excellent explanation about this differential equation in <a href="https://www.feynmanlectures.caltech.edu/I_09.html" target="_blank" rel="noopener noreffer ">Chapter 9 of his Volume 1 of Lectures on Physics</a>). </p>
+<p>This week, when working with the Kepler problem in General relativity, I encountered the classical problem of calculating the perihelion advance of the Mercury, which is one of <a href="https://en.wikipedia.org/wiki/Tests_of_general_relativity#Perihelion_precession_of_Mercury" target="_blank" rel="noopener noreffer ">the classic tests</a> of the validity of the theory.
+It is a quite nontrivial calculation, the first step of which is Kepler problem in Newtonian theory.
+I suddenly realize the Kepler problem in Newtonian theory is quite straightforward and can be derived using probably less than 10 lines of equations.</p>
+<p>The goal of this post is showing the derivation.
+My intention is that the derivation is accessible to second-year high school students who have already finished learning Newtonian theory: 1) $F= ma$, 2) conservation of energy, and 3) circular motion of planets.
+I assume the basic knowledge of derivatives, which is usually covered in high school first-year mathematics class.
+Hopefully, if I have done a decent job below, the post can demonstrate the power of the conservation laws, including energy conservation.</p>
+<h2 id="kepler-problem-in-newtonian-gravity-as-simple-as-possible">Kepler problem in Newtonian gravity as simple as possible</h2>
+<p>In this short derivation, we will check the well-known facts that 1) the orbit of planets is an ellipse and 2) the sun is on one of the foci of the ellipse.
+The starting points are just two basics conservation laws of Newtonian mechanics.</p>
+<p>We put the sun at the center of our coordinate system.
+Since we know that the only nontrivial force is the gravitational pull of the sun on the planet that always point radially towards the sun, the natural choice of the coordinate system is the polar coordinate $(r, \phi)$, which denotes the position of the planet.
+The gravitational potential energy of the planet is $V(r) = -\frac{GMm}{r}$, wherer $M$ is the mass of the sun and $m$ the mass of the planet.
+The kinetic energy of the planet has two parts, radial and tangential one, $K = \frac{1}{2} m \left( \left(\frac{dr}{dt} \right)^2 + \left(r \frac{d\phi}{dt}\right)^2\right)$.
+The conservation of energy means the sum of potential energy and kinetic energy is a <em>constant</em> $E$,</p>
+<p>\begin{align}
+E = \frac{1}{2} m \left(\left(\frac{d{\color{blue} r}}{dt} \right)^2 + \left({\color{blue} r}  \frac{d { \color{blue} \phi}}{dt} \right)^2 \right) -  \frac{GMm}{{ \color{blue} r}},
+\end{align}</p>
+<p>where I emphasize the dynamical variables in this problem with blue color—they are functions of time and it&rsquo;s our goal to find how they evolve with time.
+I cannot see how to write down the solution of the above equation since two unknown variables $r, \phi$ are one equation.
+The second equation is the conservation of angular momentum $L$ of the planets,</p>
+<p>\begin{align}
+L = m \cdot r \cdot r \frac{d\phi}{dt} = m { \color{blue} r^2} \frac{d{ \color{blue} \phi}}{dt}.
+\end{align}</p>
+<p>The first equal sign is the definition of angular momentum as mass $\times$ radial coordinate $\times$ tangential velocity.
+To find the curve of the orbit, we can either find $r(t), \phi(t)$ as functions of time and eliminate $t$, or find $r$ as function of $\phi$ directly.
+Let&rsquo;s choose the second approach here.
+The strategy is now clear, we can solve for $dr/dt$ and $d\phi / dt$ and eliminate $t$ by taking their ratio,</p>
+<p>\begin{align}
+\left(  \frac{dr}{dt} \right)^2 = 2 \frac{E}{m} + 2 \frac{GM}{r} - \frac{L^2}{m^2 r^2},\\
+\left( \frac{d\phi}{dt} \right)^2 = \frac{L^2}{m^2 r^4}, \text{ so}\\
+\left( \frac{dr}{d\phi} \right)^2 = \frac{(dr/dt)^2}{(d\phi / dt)^2}= \frac{2E/m + 2GM \frac{1}{r} - L^2/m^2 \frac{1}{r^2}}{L^2/m^2 \frac{1}{r^4}}.
+\end{align}</p>
+<p>The right-hand side of Eq. (7) begs us to treat $1/r$ as a variable, not $r$, so we define $u = 1/r$.
+By solving $u$ as a function of $phi$, we get $r$ immediately.
+Equation (7) in terms of $u$ is</p>
+<p>\begin{align}
+\left( \frac{du}{d\phi} \right)^2 &amp;= \frac{2E/m + 2GM u - L^2/m^2 u^2}{L^2/m^2} =
+\frac{2Em}{L^2} + \frac{2GMm^2}{L^2} u - u^2 \nonumber \\
+&amp;=- \left(u - \frac{2GMm^2}{L^2} \right)^2 + \frac{2Em}{L^2} + \left( \frac{GMm^2}{L^2} \right)^2.
+\end{align}</p>
+<p>We move terms related to dynamic variable $u$ to the left-hand side and leave the constant to the right-hand side to get </p>
+<p>\begin{align}
+\left( \frac{d{\color{blue} u}}{d{\color{blue} \phi}} \right)^2 + \left({\color{blue} u} - \frac{2GMm^2}{L^2} \right)^2
+= \frac{2Em}{L^2} + \left( \frac{GMm^2}{L^2} \right)^2.
+\end{align}</p>
+<p>We use blue to denote the variable.
+Remember that $u$ is a function of $phi$ and the above equation is a sum of two functions of $phi$ becomes a constant.
+What&rsquo;s the solution?
+Sinusoidal functions.
+And we are so lucky that the derivative of $cos$ gives you $sin$ and their sum is a constant!
+We find the equation for the curve of the planet orbit as</p>
+<p>\begin{align}
+\frac{1}{r(\phi)} = u(\phi) = \frac{2GMm^2}{L^2} + \sqrt{ \frac{2Em}{L^2} + \left( \frac{GMm^2}{L^2} \right)^2 } \cos(\phi).
+\end{align}</p>
+<p>It still doesn&rsquo;t look like the standard equation of ellipse.
+Now, we have a good high-school math exercise of showing how the standard ellipse equation in Eq. (2) is related to our solution above in Eq. (10) in polar coordinate.
+Or you can refer to <a href="https://en.wikipedia.org/wiki/Ellipse#Polar_form_relative_to_focus" target="_blank" rel="noopener noreffer ">this Wikipedia page</a>.</p>
+<p>Do you think it difficult or complicated?
+All we need are two conservation laws and a few lines of algebra!
+Now you see in front of your own eyes <em>how an ellipse arises from Newtonian mechanics and how the sun is at one of the foci of the ellipse</em>!</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-04-23</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="/posts/kepler-problem/" data-title="Kepler Problem"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="/posts/kepler-problem/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="/posts/kepler-problem/" data-title="Kepler Problem"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="/posts/kepler-problem/" data-title="Kepler Problem"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="/posts/kepler-problem/" data-title="Kepler Problem"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/jesus-101/" class="prev" rel="prev" title="Jesus 101"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Jesus 101</a>
+            <a href="/posts/life-as-an-engineering-process/" class="next" rel="next" title="Life as an engineering process">Life as an engineering process<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.143.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Xinliang Lyu</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://bruce-github.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
