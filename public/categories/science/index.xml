@@ -133,5 +133,39 @@ In this sense, the first part is like my duty or job.
 The second division is more about interest and enjoyment.
 I got this idea after reading Bertrand Russell&rsquo;s essay, <a href="https://files.libcom.org/files/Bertrand%20Russell%20-%20In%20Praise%20of%20Idleness.pdf" target="_blank" rel="noopener noreffer ">In Praise of Idleness</a>, back in 2021, where he discussed work and idleness.</p>]]></description>
 </item>
+<item>
+    <title>Spacetime Physics by Taylor and Wheeler</title>
+    <link>/posts/spacetime-physics-by-taylor-and-wheeler/</link>
+    <pubDate>Sun, 18 Sep 2022 06:56:58 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/spacetime-physics-by-taylor-and-wheeler/</guid>
+    <description><![CDATA[<h2 id="many-failures-and-difficulty-in-understanding-general-relativity-quantum-field-theory-and-conformal-field-theory">Many failures and difficulty in understanding general relativity, quantum field theory, and conformal field theory</h2>
+<figure><figcaption>
+      <p>I try to learn QFT</p>
+    </figcaption>
+</figure>
+
+<p>I tried to follow the video lectures of the <a href="https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/pages/syllabus/" target="_blank" rel="noopener noreffer ">MIT course 8.962</a> about <em>general relativity (GR)</em> back in September 2020 after its release on MIT/OCW.
+I only got to the point of Lecture 9 about Geodesics back then.
+The feeling wasn&rsquo;t right.
+I thought I wasn&rsquo;t prepared then.</p>]]></description>
+</item>
+<item>
+    <title>Into Rabbit Hole of Quantum Again</title>
+    <link>/posts/into-rabbit-hole-of-quantum-again/</link>
+    <pubDate>Sun, 04 Sep 2022 14:05:34 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/into-rabbit-hole-of-quantum-again/</guid>
+    <description><![CDATA[<p>It has been half a year since my last post, and I forgot to post a plan for the year 2022.
+So first some recent updates about my physics study.</p>
+<p>Our research group has a weekly <a href="https://kawashima.issp.u-tokyo.ac.jp/for-students/group-seminars/" target="_blank" rel="noopener noreffer ">textbook reading session</a>, where we choose a textbook each year and study it together.
+In last two years, we have chosen</p>
+<ul>
+<li>A. Zee&rsquo;s <a href="https://press.princeton.edu/books/hardcover/9780691162690/group-theory-in-a-nutshell-for-physicists" target="_blank" rel="noopener noreffer ">group theory book</a>, which discusses the mathematical language to study symmetry, and</li>
+<li>X.-G. Wen&rsquo;s <a href="https://academic.oup.com/book/25836" target="_blank" rel="noopener noreffer ">quantum field theory book</a>, focusing on the field techniques when dealing with quantum many-body systems.</li>
+</ul>
+<p>This year, we have chosen <a href="http://theory.caltech.edu/~preskill/ph229/" target="_blank" rel="noopener noreffer ">John Preskill&rsquo;s lecture notes</a> on quantum information and quantum computation.
+It&rsquo;s a journey to <em><strong>the strange and crazy quantum world</strong></em>.</p>]]></description>
+</item>
 </channel>
 </rss>

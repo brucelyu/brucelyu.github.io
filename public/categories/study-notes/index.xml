@@ -52,5 +52,62 @@ I&rsquo;m happy that I finally finished all the video lectures of Prof. Hughes&r
 I talked about the first part of this course in my <a href="https://xllyu.org/posts/summary-for-2022-physics/" target="_blank" rel="noopener noreffer ">2022 summary of physics post</a>.
 After that, the second half of the course focuses on applications.</p>]]></description>
 </item>
+<item>
+    <title>Spacetime Physics by Taylor and Wheeler</title>
+    <link>/posts/spacetime-physics-by-taylor-and-wheeler/</link>
+    <pubDate>Sun, 18 Sep 2022 06:56:58 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/spacetime-physics-by-taylor-and-wheeler/</guid>
+    <description><![CDATA[<h2 id="many-failures-and-difficulty-in-understanding-general-relativity-quantum-field-theory-and-conformal-field-theory">Many failures and difficulty in understanding general relativity, quantum field theory, and conformal field theory</h2>
+<figure><figcaption>
+      <p>I try to learn QFT</p>
+    </figcaption>
+</figure>
+
+<p>I tried to follow the video lectures of the <a href="https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/pages/syllabus/" target="_blank" rel="noopener noreffer ">MIT course 8.962</a> about <em>general relativity (GR)</em> back in September 2020 after its release on MIT/OCW.
+I only got to the point of Lecture 9 about Geodesics back then.
+The feeling wasn&rsquo;t right.
+I thought I wasn&rsquo;t prepared then.</p>]]></description>
+</item>
+<item>
+    <title>Into Rabbit Hole of Quantum Again</title>
+    <link>/posts/into-rabbit-hole-of-quantum-again/</link>
+    <pubDate>Sun, 04 Sep 2022 14:05:34 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/into-rabbit-hole-of-quantum-again/</guid>
+    <description><![CDATA[<p>It has been half a year since my last post, and I forgot to post a plan for the year 2022.
+So first some recent updates about my physics study.</p>
+<p>Our research group has a weekly <a href="https://kawashima.issp.u-tokyo.ac.jp/for-students/group-seminars/" target="_blank" rel="noopener noreffer ">textbook reading session</a>, where we choose a textbook each year and study it together.
+In last two years, we have chosen</p>
+<ul>
+<li>A. Zee&rsquo;s <a href="https://press.princeton.edu/books/hardcover/9780691162690/group-theory-in-a-nutshell-for-physicists" target="_blank" rel="noopener noreffer ">group theory book</a>, which discusses the mathematical language to study symmetry, and</li>
+<li>X.-G. Wen&rsquo;s <a href="https://academic.oup.com/book/25836" target="_blank" rel="noopener noreffer ">quantum field theory book</a>, focusing on the field techniques when dealing with quantum many-body systems.</li>
+</ul>
+<p>This year, we have chosen <a href="http://theory.caltech.edu/~preskill/ph229/" target="_blank" rel="noopener noreffer ">John Preskill&rsquo;s lecture notes</a> on quantum information and quantum computation.
+It&rsquo;s a journey to <em><strong>the strange and crazy quantum world</strong></em>.</p>]]></description>
+</item>
+<item>
+    <title>Geometric aspect of classical mechanics</title>
+    <link>/posts/geometric-aspect-of-classical-mechanics/</link>
+    <pubDate>Mon, 28 Mar 2022 15:09:07 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/geometric-aspect-of-classical-mechanics/</guid>
+    <description><![CDATA[<p>There are many approaches to classical mechanics.
+The first introduction in high school is intuitive and fit into our everyday experience: motion of a single particle is some trajectory in ordinary space and we are interested in finding its time evolution.
+This formulation relies heavily on notions like <strong>particles</strong>, <strong>force</strong>, <strong>velocity</strong> and <strong>acceleration</strong>. </p>
+<p>However, even in high school physics class, the discussion doesn&rsquo;t limit itself to intuitive notions.
+We are seeing very abstract concepts like <strong>energy</strong> and <strong>momentum</strong>.
+These conserved quantities are very powerful tools to make our analysis simple and elegant.
+Moreover, it provides a deeper understanding of a physical problem. </p>]]></description>
+</item>
+<item>
+    <title>Quantum Theory of Solids by Subir Sachdev</title>
+    <link>/posts/quantum-theory-of-solids-by-subir-sachdev/</link>
+    <pubDate>Mon, 07 Mar 2022 15:41:33 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/quantum-theory-of-solids-by-subir-sachdev/</guid>
+    <description><![CDATA[<p>I started Prof. Sachdev&rsquo;s Havard course <a href="https://canvas.harvard.edu/courses/79258" target="_blank" rel="noopener noreffer ">Physics 295b</a>: Quantum Theory of Solids in the end of October 2021, and finished the first 30 <a href="https://www.youtube.com/playlist?list=PLcD25rnTeV9geERxK7Tky8XsUghzeArEF" target="_blank" rel="noopener noreffer ">lecture videos</a> in the beginning of February 2022.
+For me, this course feels like the ideal next step after learning the usual undergraduate <a href="http://podcasts.ox.ac.uk/series/oxford-solid-state-basics" target="_blank" rel="noopener noreffer ">solid state physics</a> course (talking about things like nearly free electron model, tight-bonding model, bond structure, X-ray or neutron scattering experiments&hellip;).</p>]]></description>
+</item>
 </channel>
 </rss>

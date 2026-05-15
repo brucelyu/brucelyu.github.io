@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Book Review - Category - Hack it!</title>
+        <link>/categories/book-review/</link>
+        <description>Book Review - Category - Hack it!</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lyu@xllyu.org (Xinliang Lyu)</managingEditor>
+            <webMaster>lyu@xllyu.org (Xinliang Lyu)</webMaster><lastBuildDate>Sun, 18 Sep 2022 06:56:58 &#43;0000</lastBuildDate><atom:link href="/categories/book-review/" rel="self" type="application/rss+xml" /><item>
+    <title>Spacetime Physics by Taylor and Wheeler</title>
+    <link>/posts/spacetime-physics-by-taylor-and-wheeler/</link>
+    <pubDate>Sun, 18 Sep 2022 06:56:58 &#43;0000</pubDate>
+    <author>Xinliang Lyu</author>
+    <guid>/posts/spacetime-physics-by-taylor-and-wheeler/</guid>
+    <description><![CDATA[<h2 id="many-failures-and-difficulty-in-understanding-general-relativity-quantum-field-theory-and-conformal-field-theory">Many failures and difficulty in understanding general relativity, quantum field theory, and conformal field theory</h2>
+<figure><figcaption>
+      <p>I try to learn QFT</p>
+    </figcaption>
+</figure>
+
+<p>I tried to follow the video lectures of the <a href="https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/pages/syllabus/" target="_blank" rel="noopener noreffer ">MIT course 8.962</a> about <em>general relativity (GR)</em> back in September 2020 after its release on MIT/OCW.
+I only got to the point of Lecture 9 about Geodesics back then.
+The feeling wasn&rsquo;t right.
+I thought I wasn&rsquo;t prepared then.</p>]]></description>
+</item>
+</channel>
+</rss>

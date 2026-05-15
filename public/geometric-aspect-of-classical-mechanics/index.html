@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Geometric aspect of classical mechanics - Hack it!</title><meta name="Description" content="My personal blog"><meta property="og:url" content="//localhost:1313/geometric-aspect-of-classical-mechanics/">
+  <meta property="og:site_name" content="Hack it!">
+  <meta property="og:title" content="Geometric aspect of classical mechanics">
+  <meta property="og:description" content="There are many approaches to classical mechanics. The first introduction in high school is intuitive and fit into our everyday experience: motion of a single particle is some trajectory in ordinary space and we are interested in finding its time evolution. This formulation relies heavily on notions like particles, force, velocity and acceleration. However, even in high school physics class, the discussion doesn’t limit itself to intuitive notions. We are seeing very abstract concepts like energy and momentum. These conserved quantities are very powerful tools to make our analysis simple and elegant. Moreover, it provides a deeper understanding of a physical problem. ">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-03-28T15:09:07+00:00">
+    <meta property="article:modified_time" content="2022-03-28T15:09:07+00:00">
+    <meta property="og:image" content="//localhost:1313/img/the-matrix.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="//localhost:1313/img/the-matrix.jpg">
+  <meta name="twitter:title" content="Geometric aspect of classical mechanics">
+  <meta name="twitter:description" content="There are many approaches to classical mechanics. The first introduction in high school is intuitive and fit into our everyday experience: motion of a single particle is some trajectory in ordinary space and we are interested in finding its time evolution. This formulation relies heavily on notions like particles, force, velocity and acceleration. However, even in high school physics class, the discussion doesn’t limit itself to intuitive notions. We are seeing very abstract concepts like energy and momentum. These conserved quantities are very powerful tools to make our analysis simple and elegant. Moreover, it provides a deeper understanding of a physical problem. ">
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="//localhost:1313/geometric-aspect-of-classical-mechanics/" /><link rel="prev" href="//localhost:1313/posts/pursue-physics/" /><link rel="next" href="//localhost:1313/posts/into-rabbit-hole-of-quantum-again/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Geometric aspect of classical mechanics",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/\/localhost:1313\/geometric-aspect-of-classical-mechanics\/"
+        },"genre": "post","wordcount":  529 ,
+        "url": "\/\/localhost:1313\/geometric-aspect-of-classical-mechanics\/","datePublished": "2022-03-28T15:09:07+00:00","dateModified": "2022-03-28T15:09:07+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Xinliang (Bruce) Lyu"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Hack it!">Hack it</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Hack it!">Hack it</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">Geometric aspect of classical mechanics</h1><div class="content" id="content"><p>There are many approaches to classical mechanics. The first introduction in high school is intuitive and fit into our everyday experience: motion of a single particle is some trajectory in ordinary space and we are interested in finding its time evolution. This formulation relies heavily on notions like <strong>particles</strong>, <strong>force</strong>, <strong>velocity</strong> and <strong>acceleration</strong>. </p>
+<p>However, even in high school physics class, the discussion doesn’t limit itself to intuitive notions. We are seeing very abstract concepts like <strong>energy</strong> and <strong>momentum</strong>. These conserved quantities are very powerful tools to make our analysis simple and elegant. Moreover, it provides a deeper understanding of a physical problem. </p>
+<p>During the undergraduate physics course (see, for example, the <a href="https://ocw.mit.edu/courses/physics/8-01sc-classical-mechanics-fall-2016" target="_blank" rel="noopener noreffer ">classical mechanics course</a> in MIT/OCW), non-physics majors usually learn mechanics using the same formulation developed during high school. More interesting topics related to rigid body are discussed, where the notion of <strong>angular momentum</strong> is naturally introduced. When we first meet <strong>Lagrange</strong>‘s formulation of mechanics, we will probably start to be amazed by the <strong>power of abstraction</strong> and <strong>mathematics</strong>. It is probably the first shift of framework for learning physics. The final step to this journey of abstraction is perhaps the <strong>differential geometric perspective of classical mechanics</strong>. The classical book on this is Arnold’s <a href="https://link.springer.com/book/10.1007/978-1-4757-1693-1" target="_blank" rel="noopener noreffer ">Mathematical Methods of Classical Mechanics</a>. Recently, I finished a <a href="https://psi-online.perimeterinstitute.ca/courses/theoretical-mechanics" target="_blank" rel="noopener noreffer ">concise online course</a> provided by the Perimeter institute of theoretical physics, which does an excellent job in explaining the geometric aspects of classical mechanics.<!-- raw HTML omitted --></p>
+<h2 id="lagrangian-and-hamiltonian-formulation-of-classical-mechanics">Lagrangian and Hamiltonian formulation of classical mechanics</h2>
+<pre><code>    &lt;p&gt;The beauty of Lagrangian's formulation of classical mechanics is that it frees us from the maze of vector analysis (drawing diagrams of an object subjecting to various forces...). It certainly satisfies the intuitive picture, but the payoff is the simplicity and generality of the formulation. Now the key concepts become &lt;strong&gt;generalized coordinates&lt;/strong&gt;, &lt;strong&gt;kinetic and potential energy&lt;/strong&gt;. This powerful formulation allows us&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Change the description of our system easily by using different set of generalized coordinates. We can choose the most convenient ones (for a simple pendulum, we prefer a single angle to two Cartesian coordinates). &lt;/li&gt;&lt;li&gt;Identify conserved quantities easily from symmetry of the problem according to the beautiful Noether's theorem.&lt;/li&gt;&lt;li&gt;This one single formalism encapsulates most of the classical physics, including mechanics, electromagnetism, optics and general relativity.&lt;/li&gt;&lt;li&gt;Through Feynman's path integral formulations, it provides a smooth and a very intuitive transition to the quantum world!&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A Legendre transformation brings Lagrangian to Hamilton's formulation. The dynamics degrees of freedom double, but the equation of motion (EOM) becomes more symmetric; as an autonomous differential equation system, the order of the EOM goes down from 2 to 1, which has well-studied and understood in mathematics (see &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-03sc-differential-equations-fall-2011/&quot;&gt;this differential equation course&lt;/a&gt; in MIT/OCW). Now the dynamics becomes a flow in the so-called phase space, an abstract flow in a geometric space.&lt;/p&gt;       
+        &lt;h2&gt;The underlying geometric picture&lt;/h2&gt;       
+    &lt;p&gt;There are lots of subtle points in Lagrange and Hamilton's formulation. For example, is the Lagrangian function of generalized coordinates or function of time? How can we treat the coordinate $q$ and its velocity $dot{q}$ independently. This will be clarified using mathematics notions like manifold and tangent bundle. The very symmetric form of the Hamilton's equation will be described as symplectic structure in the differential geometry language.
+</code></pre>
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.143.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Xinliang Lyu</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
